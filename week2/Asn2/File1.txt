@@ -1,0 +1,10 @@
+<b>You have been neck punched by</b><br>
+<img src="npunch.png">
+<br>
+<img src="bikepunch.jpg"><br><br>
+<img src="fight2.gif"><br><br>
+<img src="np.jpg"><br><br>
+
+Thanks for visiting<br>
+<br>
+

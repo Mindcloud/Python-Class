@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Minds in the Cloud - Linux and Android News and Reviews</title>
+<meta name="robots" content="index,follow" />
+<meta name="generator" content="WordPress 3.0.1" />
+<link rel="stylesheet" href="http://www.mindcloud.com/wp-content/themes/studiopress/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Minds in the Cloud RSS Feed" href="http://www.mindcloud.com/?feed=rss2" />
+<link rel="pingback" href="http://www.mindcloud.com/xmlrpc.php" />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.mindcloud.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mindcloud.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mindcloud.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Minds in the Cloud' href='http://www.mindcloud.com' />
+<meta name="generator" content="WordPress 3.0.1" />
+<link rel="stylesheet" href="http://disqus.com/stylesheets/mindcloud/disqus.css?v=2.0" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+
+<div id="header">
+<div class="topright">
+<form method="get" id="searchform" action="http://www.mindcloud.com/">
+<div>
+<input type="text" value="" name="s" id="searchbox" />
+<input type="submit" id="searchbutton" value="" />
+</div>
+</form></div> 
+</div> <!-- Closes Header -->
+
+<div class="cleared"></div>
+<div id="underheader">
+<div id="toprss"><a href="feed:http://www.mindcloud.com/?feed=rss2">
+<img src="http://www.mindcloud.com/wp-content/themes/studiopress/images/grabrss.gif" alt="grab our rss feed"></img></a>
+</div>
+
+
+<h1 class="sitename"><a href="http://www.mindcloud.com">Minds in the Cloud</a></h1>
+<h2 class="sitedesc">Linux and Android News and Reviews</h2>
+
+</div><!-- Closes underHeader -->
+
+
+
+<div id="nav">
+<ul>
+<li class="current_page"><a href='http://www.mindcloud.com' title='Home'><span>Home</span></a></li><li><a href="http://www.mindcloud.com/?page_id=2" title="About"><span>About</span></a></li><li><a href="http://www.mindcloud.com/?page_id=8" title="Reviews"><span>Reviews</span></a></li></ul>
+
+<div class="cleared"></div>
+</div> <!-- Closes Nav -->
+
+
+
+<div class="topcurvewhite"></div>
+<div id="main">
+<div id="contentwrapper"><div id="content">
+
+<div class="adsense_top"><!-- Insert your adsense code for a 468x60 banner right under here -->
+
+
+</div>
+
+
+
+<div class="post">
+<h2 class="postTitle"><a href="http://www.mindcloud.com/?p=3">Image</a></h2>
+<div class="postMeta">
+<span class="date">Aug.18, 2010</span> in
+<span class="filed"><a href="http://www.mindcloud.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a></span>
+<span class="commentcount"><a href="http://www.mindcloud.com/?p=3#respond" title="Comment on Image"><span class="dsq-postid" rel="3 http://mindcloud.com/?p=3">View Comments</span></a></span>
+</div>
+<div class="postContent"><p><a href="http://www.mindcloud.com/?attachment_id=10" rel="attachment wp-att-10"><img src="http://www.mindcloud.com/wp-content/uploads/2010/08/Mindcloud-300x225.png" alt="" title="Mindcloud" width="300" height="225" class="alignnone size-medium wp-image-10" /></a></p>
+</div>
+<div class="postMeta"><span class="tags"></span></div>
+</div> <!-- Closes Post -->
+
+
+<div class="post">
+<h2 class="postTitle"><a href="http://www.mindcloud.com/?p=4">Test</a></h2>
+<div class="postMeta">
+<span class="date">Aug.10, 2010</span> in
+<span class="filed"><a href="http://www.mindcloud.com/?cat=4" title="View all posts in Android News" rel="category">Android News</a></span>
+<span class="commentcount"><a href="http://www.mindcloud.com/?p=4#respond" title="Comment on Test"><span class="dsq-postid" rel="4 http://www.mindcloud.com/?p=4">View Comments</span></a></span>
+</div>
+<div class="postContent"><p>Testing the Blog</p>
+</div>
+<div class="postMeta"><span class="tags"></span></div>
+</div> <!-- Closes Post -->
+
+
+<div class="post">
+<h2 class="postTitle"><a href="http://www.mindcloud.com/?p=1">Hello world!</a></h2>
+<div class="postMeta">
+<span class="date">Aug.10, 2010</span> in
+<span class="filed"><a href="http://www.mindcloud.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a></span>
+<span class="commentcount"><a href="http://www.mindcloud.com/?p=1#comments" title="Comment on Hello world!"><span class="dsq-postid" rel="1 http://mindcloud.com/?p=1">View Comments</span></a></span>
+</div>
+<div class="postContent"><p>Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!</p>
+</div>
+<div class="postMeta"><span class="tags"></span></div>
+</div> <!-- Closes Post -->
+
+	<script type="text/javascript">
+	// <![CDATA[
+		var disqus_shortname = 'mindcloud';
+		var disqus_domain = 'disqus.com';
+		(function () {
+			var nodes = document.getElementsByTagName('span');
+			for (var i = 0, url; i < nodes.length; i++) {
+				if (nodes[i].className.indexOf('dsq-postid') != -1) {
+					nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+					url = nodes[i].parentNode.href.split('#', 1);
+					if (url.length == 1) url = url[0];
+					else url = url[1]
+					nodes[i].parentNode.href = url + '#disqus_thread';
+				}
+			}
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	//]]>
+	</script>
+
+
+<div id="nextprevious">
+ <div class="left">&nbsp;&nbsp;</div>
+ <div class="right"></div>
+</div>
+
+<div class="cleared"></div>
+
+</div></div> <!-- Closes Content -->
+
+
+<div id="allsidebars">
+
+<div class="sidebarswrapper"><div class="sidebars">
+
+<div id='welcome'><p>Thanks for visiting</p></div>
+<div class="sidebarsbottom"></div>
+</div> <!-- Closes Sidebars -->
+</div> <!-- Closes SidebarsWrapper -->
+
+
+
+<div class="sidebarsB">
+
+<div class="adsense_sidebar"><!-- Insert your adsense code for a 336x280 rectangle right under here -->
+</div>
+
+
+<div class="sidebar1">
+<ul>
+
+<li>
+<h2>Categories</h2>
+<ul>
+  	<li class="cat-item cat-item-4"><a href="http://www.mindcloud.com/?cat=4" title="View all posts filed under Android News">Android News</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.mindcloud.com/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+</ul>
+</li>
+
+<li id="categories-3" class="sidebaritem"><h2 class="widgettitle">Categories</h2>		<ul>
+	<li class="cat-item cat-item-4"><a href="http://www.mindcloud.com/?cat=4" title="View all posts filed under Android News">Android News</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.mindcloud.com/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+		</ul>
+</li><li id="rec-reading" class="sidebaritem"><h2 class="widgettitle">Recommended Reading</h2><ul class="gReader-list"><li class="gReader-item gReader-item-1"><a href="http://feedproxy.google.com/~r/DroidLife/~3/bixWkGO7u4Y/" title="link to post" target="_blank" rel="nofollow" class="gReader-title">Video:  Hands-on with a Giant DROID X</a></li><li class="gReader-item gReader-item-2"><a href="http://feedproxy.google.com/~r/bethesdablog/~3/zOTuU9uDhm0/" title="link to post" target="_blank" rel="nofollow" class="gReader-title">Wastelander of the Coast</a></li><li class="gReader-item gReader-item-3"><a href="http://feedproxy.google.com/~r/bethesdablog/~3/JlMxeunR_tY/" title="link to post" target="_blank" rel="nofollow" class="gReader-title">Fallout Bulletin: Tips, Mods and More</a></li><li class="gReader-item gReader-item-4"><a href="http://feedproxy.google.com/~r/webupd8/~3/jusPy-GovlI/news-on-default-applications-in-ubuntu.html" title="link to post" target="_blank" rel="nofollow" class="gReader-title">News On The Default Applications In Ubuntu 11.04 Natty Narwhal [Updated]</a></li><li class="gReader-item gReader-item-5"><a href="http://feeds.gawker.com/~r/lifehacker/full/~3/8RMPpIj4Q3U/use-kde-activities-to-create-different-desktops-for-work-and-personal-use" title="link to post" target="_blank" rel="nofollow" class="gReader-title">Use KDE Activities to Create Different Desktops for Work and Personal Use [Linux Tip]</a></li><li class="grCredit"><small>Plugin by <a href="http://www.cmurrayconsulting.com/software/google-reader-shared-wordpress/" title="Expert WordPress Developers" target="_blank">C. Murray Consulting</a></small></li></ul></li>
+<li>
+<!-- Insert your adsense code for a 160x600 banner right under here -->
+</li>
+
+</ul>
+
+</div> <!-- Closes Sidebar1 -->
+
+<div class="sidebar2">
+
+<ul>
+
+<li>
+<h2>Blogroll</h2>
+<ul>
+  <li><a href="http://codex.wordpress.org/">Documentation</a></li>
+<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+<li><a href="http://wordpress.org/extend/ideas/">Suggest Ideas</a></li>
+<li><a href="http://wordpress.org/support/">Support Forum</a></li>
+<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+<li><a href="http://wordpress.org/development/">WordPress Blog</a></li>
+<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+</ul>
+</li>
+
+<li>
+<h2>Archives</h2>
+<ul>
+  	<li><a href='http://www.mindcloud.com/?m=201008' title='August 2010'>August 2010</a></li>
+</ul>
+</li>
+
+<li>
+<h2>Tag Cloud</h2>
+</li>
+
+</ul>
+
+</div> <!-- Closes Sidebar2 -->
+<div class="cleared"></div>
+</div> <!-- Closes SidebarsB -->
+
+
+</div> <!-- Closes allsidebars -->
+<div class="cleared"></div>
+
+</div> <!-- Closes Main -->
+<div class="bottomcurvewhite"></div>
+
+
+
+<div class="topcurve"></div>
+
+<div id="footer">
+
+<div id="credits">
+<p>&copy; 2007 Minds in the Cloud - <a href="http://www.dailyblogtips.com/wordpress-themes/">StudioPress Theme</p>
+<p><a href="feed:http://www.mindcloud.com/?feed=rss2">Full RSS</a> - <a href="feed:http://mindcloud.disqus.com/latest.rss">Comments RSS</a></p>
+</div>
+
+<div class="cleared"></div>
+
+</div> <!-- Closes Footer -->
+
+<div class="bottomcurve"></div>
+
+
+</div> <!-- Closes Wrapper -->
+
+
+</body>
+</html>
