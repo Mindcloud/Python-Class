@@ -18,7 +18,7 @@ class BookDBList:
 
         template = Template('''
 	    <h1>BookList</h1>
-            <br><p>Click on a title for details</p>
+            <p>Click on a title for details</p>
             <hr>
             #for $book in $booksdb.titles()
                 <a href="./detail?id=$book.id">$book.title<br>
@@ -32,12 +32,12 @@ class BookDBList:
         books = BookDB()
         bookdet = books.title_info(id)
         template = Template('''
-            <h1>Book Details For</h1>
-               Title: $bookdet['title']<br> 
-               ISBN: $bookdet['isbn']<br>
-               Publisher: $bookdet['publisher']<br>
-               Author: $bookdet['author']<br><br>
-            <a href="./">Return to Index</a>
+            <h1>Book Details</h1><hr>
+               <h2>Title: $bookdet['title']</h2><br> 
+               <b>ISBN:</b> $bookdet['isbn']<br>
+               <b>Publisher:</b> $bookdet['publisher']<br>
+               <b>Author:</b> $bookdet['author']<br><br>
+            <a href="./">Return to List</a>
         ''', [locals(), globals()])
         return template.respond()
 
