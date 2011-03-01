@@ -1,0 +1,36 @@
+<head> <title>Recipe List</title> </head>
+
+<span style="font-size: 24pt;">Recipe List</span>
+
+<a href="/recipes/">Go Back to Index</a>
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td style="border: 2px solid black;"><span style="font-size: 14pt;">Recipe Name</span><br /></td>
+      <td style="border: 2px solid black;"><span style="font-size: 14pt;">Category</span><br /></td>
+      <td style="border: 2px solid black;"><span style="font-size: 14pt;">Net Carbs</span><br /></td>
+      <td style="border: 2px solid black;"><span style="font-size: 14pt;">Protein</span><br /></td>
+    </tr><tr>
+
+{% if recipe_list %}
+    <ul>
+    {% for recipe in recipe_list %}
+      <td style="border: 2px solid black;"><a href="/recipes/{{ recipe.id }}/">{{ recipe.name }}</a><br />
+        </td>
+      <td style="border: 2px solid black;"><a href="/recipes/category/{{ recipe.category }}/">{{ recipe.category }}<br />
+        </td>
+      <td style="border: 2px solid black;">{{ recipe.net_carbs }}<br />
+        </td>
+      <td style="border: 2px solid black;">{{ recipe.protein }}<br />
+        </td>
+    </tr>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No recipes are available.</p>
+{% endif %}
+
+    </tr>
+  </tbody>
+</table>

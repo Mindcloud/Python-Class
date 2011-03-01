@@ -1,0 +1,10 @@
+<h1>{{ recipe.name }}</h1>
+
+<ul>
+{% for ingredient in recipe.ingredient_set.all %}
+    <li>{{ ingredient.amount}} {{ ingredient.size }} {{ ingredient.name }}</li>
+{% endfor %}
+</ul>
+
+
+<a href=/recipes/>Back to Index</a>
