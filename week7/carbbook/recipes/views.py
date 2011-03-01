@@ -1,7 +1,21 @@
+from django.db.models import Q
 from django.template import Context, loader
 from django.http import HttpResponse, Http404
 from recipes.models import Recipe
 from django.shortcuts import render_to_response
+
+def search_form(request):
+    return render_to_response('recipe/search_form.html')
+
+def search(request):
+    if 'q' in request.GET and request.GET['q']:
+        q = request.GET['q']
+        recipes = Recipe.objects.filter(name__icontains=q)
+        return render_to_response('recipe/search_results.html',
+            {'recipes': recipes, 'query': q})
+    else:
+        return HttpResponse('Please submit a search term.')
+
 
 def index(request):
 	recipe_list = Recipe.objects.all()

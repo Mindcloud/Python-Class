@@ -9,6 +9,8 @@ urlpatterns = patterns('',
     (r'^recipes/$', 'recipes.views.index'),
     (r'^recipes/(?P<recipe_id>\d+)/$', 'recipes.views.detail'),
     (r'^recipes/category/$', 'recipes.views.category'),
+    (r'^recipes/search/$', 'recipes.views.search'),
+    (r'^recipes/search-form/$', 'recipes.views.search_form'),
     # Uncomment the admin/doc line below to enable admin documentation:
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
