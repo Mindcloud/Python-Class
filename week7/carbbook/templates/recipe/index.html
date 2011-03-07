@@ -1,13 +1,89 @@
-<head> <title>Recipe List</title> </head>
+<head> <title>Recipe List</title>
+
+<style type="text/css">
+<!--
+body {margin: 0; padding: 0; font: normal 82% sans-serif; background-image: url(blocksbg1.jpg); background-attachment: fixed;}
+h1 {margin: 0; margin-bottom: 0px; padding: 8px; color: #ffffff; background-image: url(laptop1.jpg); background-color: #0066FF;}
+.tagline {font-size: 60%; color: #ffffff;}
+
+#search {float: right; width: 280px; padding: 5px; text-align: right;}
+.button {border: outset; 2px #000000; background-color: #00CCFF; color: #ffffff; font-weight: bold;}
+.text {border: solid 1px #000000; background-color: #eeeeee;}
+
+#bread {margin-top: 0px; margin-bottom: 10px; padding: 5px; border-top: solid 1px #000000; border-bottom: solid 1px #000000; background-color: #00CCFF; text-align: right;}
+#bread a {margin-left: 2px; margin-right: 2px; color: #000000; text-decoration: none;}
+#bread a:hover {text-decoration: underline;}
+
+#left {float: left; width: 18%; border: solid 1px #cccccc; margin-bottom: 15px; background-color: #ffffff; border-top: 0;}
+#left ul {list-style: none; margin: 0; padding: 0;}
+#left li {margin: 0px; padding: 0px;}
+#left a {display: block; width: 95.5%; margin: 0px; padding: 2px; border: solid 1px #ffffff; color: #0066cc; text-decoration: none;}
+#left a:hover {border: solid 1px #0066cc; background-color: #0066cc; color: #ffffff;}
+#left h3 {margin: 0; padding: 2px; font-weight: normal; background-color: #FFCCFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000;}
+
+#content {margin-left: 20%; padding: 0; border-left: solid 1px #cccccc; border-top: 0; border-bottom: solid 1px #ffffff;  background-color: #ffffff;}
+#content h3 {margin: 0; padding: 2px; font-weight: normal; background-color: #FFCCFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000;}
+#content p {margin: 5px; color: #000000;}
+#content a {color: #0066cc; text-decoration: none;}
+#content a:hover {color: #0000ff; text-decoration: underline;}
+#content .point {margin: 3%; padding: 0px; border: solid 1px #000000; border-top: 0; background-color: #f9f9f9;}
+#content .point h3 {}
+#content .code {margin: 3%; padding: 7px; border: solid 1px #cccccc; background-color: #eeeeee; font: normal 100% courier; color: #000000;}
+
+#footer {clear: both; margin-top: 0px; padding: 5px; border: solid 1px #cccccc; background-color: #0066FF;}
+#footer p {float: left; margin: 0;}
+#footer h5 {margin: 0; text-align: right; color: #000000;}
+#footer a {margin-left: 2px; margin-right: 2px; color: #000000; text-decoration: none;}
+#footer a:hover {text-decoration: underline;}
+
+table.sample {
+	border-width: 4px;
+	border-spacing: 2px;
+	border-style: ridge;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: rgb(250, 240, 230);
+	width: 100%;
+}
+table.sample th {
+	border-width: 1px;
+	padding: 2px;
+	border-style: inset;
+	border-color: red;
+	background-color: rgb(250, 240, 230);
+	-moz-border-radius: 6px 6px 6px 6px;
+}
+table.sample td {
+	border-width: 1px;
+	padding: 2px;
+	border-style: inset;
+	border-color: red;
+	background-color: rgb(250, 240, 230);
+	-moz-border-radius: 6px 6px 6px 6px;
+}
+
+-->
+</style>
+</head>
+
+<body>
+    <div id="search">
+	<form action="/recipes/search/" method="get">
+        <input type="text" class="text" name="q"/>
+        <input type="button" value="Search" class="button" />
+	</form>
+    </div>
+
+<h1>Recipe List <span class="tagline">"Main Index" ::.</span></h1>
+<div id="bread">&#091;
+<a href="#">Home</a>&#093;&nbsp;&#091;<a href="#">Link 1</a>&#093;&nbsp;&#091;<a href="#">Link 2 </a>&#093;&nbsp;&#091;<a href="#">Link 3</a>&#093;
+</div>
 
 <span style="font-size: 24pt;">Recipe List</span>
 
-    <form action="/recipes/search/" method="get">
-        <input type="text" name="q">
-        <input type="submit" value="Search">
-    </form>
+<div id="content">
 
-<table style="border-collapse: collapse; width: 100%;">
+<table class="sample">
   <tbody>
     <tr>
       <td style="border: 2px solid black;"><span style="font-size: 14pt;">Recipe Name</span><br /></td>
@@ -37,3 +113,10 @@
     </tr>
   </tbody>
 </table>
+</div>
+<div id="footer">
+<p>Contact  ::&#091;<a href="#">jeff at mindcloud dot com</a>&#093;</p>
+<h5>Heading 5</h5>
+</div>
+</body>
+</html>
